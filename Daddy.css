@@ -374,7 +374,7 @@ img#theImg {    height: 45px;}
 
 .jumbotron {
     padding-bottom: 0rem;
-    margin-top: 0rem;
+    margin-top: -4rem;
 }
 div.jumbotron.carousel-hero {
   color: #fff;
