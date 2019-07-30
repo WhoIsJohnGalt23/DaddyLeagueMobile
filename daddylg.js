@@ -12,35 +12,35 @@ $( "a.navbar-brand" ).text( "warzone madden league" );
 $("div#dlmaddenmenu ul.navbar-nav ").append('<a href="http://www.daddyleagues.com/wz19/admin/sync_week" class="btn btn-info ajax" role="button" data-method="post" data-disabled="true" data-loader=".ajax-loader-roster" data-html=".rosterresults">  <img class="ajax-loader-roster" style="display:none" alt="Sending ..." src="/img/ajax-loader.gif"> <em class="icon-wrench"></em></a>');
 
 /***scoreboard**********************/
- $( "div#flip2").load( "/fml20/schedules div#scores" );
+ $( "div#flip2").load( "/wz19/schedules div#scores" );
  $('div#flip2').attr('class', 'simple-ticker');
 $('.simple-ticker').attr('id', 'js-ticker-fade');
     $("div#js-ticker-fade").hide();
     $("#flip").on("click", function(){
         $("div#js-ticker-fade").fadeToggle('slow');
     });
- $( "div#flip" ).load( "/fml20/admin .col-xl-6:nth-child(1) .card.text-center.card-default .card-body h4.card-title" );
- $( "div#mem").load( "/fml20/admin ul.navbar-nav.flex-row.mr-3 " );
+ $( "div#flip" ).load( "/wz19/admin .col-xl-6:nth-child(1) .card.text-center.card-default .card-body h4.card-title" );
+ $( "div#mem").load( "/wz19/admin ul.navbar-nav.flex-row.mr-3 " );
 
 /*league leaders home page********/
-$( ".passingleaders" ).load( "/fml20/stats/player/passing  .col-xl-10" );
-$( ".rushingleaders" ).load( "/fml20/stats/player/rushing .col-xl-10" );
-$( ".receivingleaders" ).load( "/fml20/stats/player/receiving .col-xl-10" );
-$( ".sacksleaders" ).load( "/fml20/stats/player/defense?sortby=sack  .col-xl-10" );
-$( ".tacklesleaders" ).load( "/fml20/stats/player/defense?sortby=tackles .col-xl-10" );
-$( ".interceptionsleaders" ).load( "/fml20/stats/player/defense?sortby=int .col-xl-10" );
+$( ".passingleaders" ).load( "/wz19/stats/player/passing  .col-xl-10" );
+$( ".rushingleaders" ).load( "/wz19/stats/player/rushing .col-xl-10" );
+$( ".receivingleaders" ).load( "/wz19/stats/player/receiving .col-xl-10" );
+$( ".sacksleaders" ).load( "/wz19/stats/player/defense?sortby=sack  .col-xl-10" );
+$( ".tacklesleaders" ).load( "/wz19/stats/player/defense?sortby=tackles .col-xl-10" );
+$( ".interceptionsleaders" ).load( "/wz19/stats/player/defense?sortby=int .col-xl-10" );
 
 /*standings tabs*******************************************************/
- $( ".afc.standings").load( "/fml20/standings .card.card-default:nth-child(4)" );
- $( ".nfc.standings").load( "/fml20/standings .card.card-default:nth-child(5)" );
+ $( ".afc.standings").load( "/wz19/standings .card.card-default:nth-child(4)" );
+ $( ".nfc.standings").load( "/wz19/standings .card.card-default:nth-child(5)" );
 
 /*All Teams Page**********************************************************/
-if(window.location.href=== "http://www.daddyleagues.com/fml20/teams") {
+if(window.location.href=== "http://www.daddyleagues.com/wz19/teams") {
          $(".col-xl-10").addClass("teams");
      }
 
 /*Standings Page*********************************************************/
-if(window.location.href=== "/fml20/standings") {
+if(window.location.href=== "/wz19/standings") {
          $(" .table-responsive").addClass("table-responsive-page");
      }
 
@@ -229,9 +229,9 @@ $('.gameoftheweek .GOW').wrapInner('<div class="record"></div>');
 $( ".gow.home.score" ).appendTo( $( ".col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right" ) );
 
 /*storylines***/
- $( ".jumbotron.hero-nature.carousel-hero" ).load( "/fml20/blog .blogpost:nth-child(1)" );
- $( ".jumbotron.hero-photography.carousel-hero" ).load( "/fml20/blog .blogpost:nth-child(2)" );
- $( ".jumbotron.hero-technology.carousel-hero" ).load( "/fml20/blog .blogpost:nth-child(3)" );
+ $( ".jumbotron.hero-nature.carousel-hero" ).load( "/wz19/blog .blogpost:nth-child(1)" );
+ $( ".jumbotron.hero-photography.carousel-hero" ).load( "/wz19/blog .blogpost:nth-child(2)" );
+ $( ".jumbotron.hero-technology.carousel-hero" ).load( "/wz19/blog .blogpost:nth-child(3)" );
 
 
 
