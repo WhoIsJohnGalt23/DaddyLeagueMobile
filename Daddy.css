@@ -1219,7 +1219,7 @@ ul#pills-tab {    white-space: nowrap;    display: block;}
     object-fit: contain;}
 div#tmpg .cfm-team-schedule img {     height: 100px;   background: gray;    width: -webkit-fill-available;    object-fit: contain;    margin: -29px 0px;    overflow: hidden;}
   .row.row-flush.cfm-team-schedule .m-0.text-muted.text-uppercase {     font-size: x-small;   color:gray!important;  top: -8px;    position: relative;}
-.row.row-flush.cfm-team-schedule .h2.m-0.text-bold {    font-size: 1rem;    padding: 5px;}
+.row.row-flush.cfm-team-schedule .h2.m-0.text-bold {    font-size: 1rem;    padding: -1px;}
 .row.row-flush.cfm-team-schedule {    height: 50px;}
 .cfm-team-schedule h4 {    font-size: smaller;    margin-left: 0px;    position: relative;    top: 0px;}
 div#scores .col-xl-10 {    margin-bottom: -69px;}
