@@ -1,5 +1,5 @@
 $(document).ready(function(){
-$('nav.navbar.navbar-expand-lg.dlnavbar.dlnavbg').prepend($('<img>',{id:'theImg',src:'https://i.imgur.com/6ReBdV9.png'}));
+$('nav.navbar.navbar-expand-lg.dlnavbar.dlnavbg').prepend($('<img>',{id:'theImg',src:'https://i.imgur.com/6ReBdV9.png?1'}));
 
 
 $('.col-md-9.col-xs-9.col-sm-9').attr('class', 'col-md-12 col-xs-12 col-sm-12 sl');
