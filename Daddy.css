@@ -119,7 +119,7 @@ footer {  text-align:center; color: #ffffff;   background: none;}
 .navbar-expand-lg .navbar-nav .dropdown-menu {   height: auto!important;}
 .navbar-collapse { -ms-flex-preferred-size: 100%;   flex-basis: 100%;   padding: 1%;}
 a.navbar-brand:before {     content:none;   position: relative;    top: 5px;}
-a.navbar-brand {   left:45px;  font-size: -webkit-xxx-large;    font-family: anton;    position: relative;    top: 15px;    letter-spacing: -1px;  background: linear-gradient(to top,white 31%, #c6dce4 52%, #efefef 65%);    -webkit-background-clip: text;    -webkit-text-fill-color: transparent;    -webkit-text-stroke: .25px #607D8B;}
+a.navbar-brand {   left:45px;  font-size: -webkit-xxx-large;    font-family: anton;    position: relative;    top: 15px;    letter-spacing: -1px;  background: linear-gradient(to top, #4b4949 31%, #c6dce4 52%, #efefef 65%);    -webkit-background-clip: text;    -webkit-text-fill-color: transparent;    -webkit-text-stroke: .25px #607D8B;}
 .bg-light, .dropdown-menu{    background-color: #283b62!important;}
 .navbar-light .navbar-brand, .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover, .navbar-light .navbar-nav .nav-link {  color: rgb(255, 255, 255);}
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {   color: rgba(255, 255, 255, 0.9);    text-shadow: 0 0px 37px lightblue;}
