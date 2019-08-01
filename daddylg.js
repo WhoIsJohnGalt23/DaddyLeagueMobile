@@ -1,5 +1,5 @@
 $(document).ready(function(){
-$('nav.navbar.navbar-expand-lg.dlnavbar.dlnavbg').prepend($('<img>',{id:'theImg',src:'http://www.transparentpng.com/thumb/playstation/dfgBr6-playstation-logo-transparent.png'}));
+$('nav.navbar.navbar-expand-lg.dlnavbar.dlnavbg').prepend($('<img>',{id:'theImg',src:'https://www.freepnglogos.com/uploads/playstation-png-logo/playstation-brand-png-logo-16.png'}));
 
 
 $('.col-md-9.col-xs-9.col-sm-9').attr('class', 'col-md-12 col-xs-12 col-sm-12 sl');
