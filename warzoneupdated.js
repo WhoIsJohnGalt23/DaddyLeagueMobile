@@ -1,5 +1,5 @@
 $(document).ready(function(){
-$('nav.navbar.navbar-expand-lg.dlnavbar.dlnavbg').prepend($('<img>',{id:'theImg',src:'https://i.imgur.com/fxFR07B.png'}));
+$('nav.navbar.navbar-expand-lg.dlnavbar.dlnavbg').prepend($('<img>',{id:'theImg',src:'https://www.logospng.com/images/212/12466-12540-12512-65378-36914-25731-12398-24040-201542-65379-212318.png'}));
 
 
 $('.col-md-9.col-xs-9.col-sm-9').attr('class', 'col-md-12 col-xs-12 col-sm-12 sl');
