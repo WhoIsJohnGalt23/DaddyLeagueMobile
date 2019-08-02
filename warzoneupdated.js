@@ -8,8 +8,8 @@ $('.col-md-9.col-xs-9.col-sm-9').attr('class', 'col-md-12 col-xs-12 col-sm-12 sl
 	
 	
 /***menu league title and additional links********************************************************************************************/
-$( "a.navbar-brand" ).text( "field of dreams" );
-$("div#dlmaddenmenu ul.navbar-nav ").append('<a href="http://www.daddyleagues.com/FieldofDreams/admin/sync_week" class="btn btn-info ajax" role="button" data-method="post" data-disabled="true" data-loader=".ajax-loader-roster" data-html=".rosterresults">  <img class="ajax-loader-roster" style="display:none" alt="Sending ..." src="/img/ajax-loader.gif"> <em class="icon-wrench"></em></a>');
+$( "a.navbar-brand" ).text( "WarZone" );
+$("div#dlmaddenmenu ul.navbar-nav ").append('<a href="http://www.daddyleagues.com/warzone/admin/sync_week" class="btn btn-info ajax" role="button" data-method="post" data-disabled="true" data-loader=".ajax-loader-roster" data-html=".rosterresults">  <img class="ajax-loader-roster" style="display:none" alt="Sending ..." src="/img/ajax-loader.gif"> <em class="icon-wrench"></em></a>');
 
 /***scoreboard**********************/
  $( "div#flip2").load( "/FieldofDreams/schedules div#scores" );
