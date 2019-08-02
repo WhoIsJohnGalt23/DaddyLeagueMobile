@@ -12,35 +12,35 @@ $( "a.navbar-brand" ).text( "WarZone" );
 $("div#dlmaddenmenu ul.navbar-nav ").append('<a href="http://www.daddyleagues.com/warzone/admin/sync_week" class="btn btn-info ajax" role="button" data-method="post" data-disabled="true" data-loader=".ajax-loader-roster" data-html=".rosterresults">  <img class="ajax-loader-roster" style="display:none" alt="Sending ..." src="/img/ajax-loader.gif"> <em class="icon-wrench"></em></a>');
 
 /***scoreboard**********************/
- $( "div#flip2").load( "/FieldofDreams/schedules div#scores" );
+ $( "div#flip2").load( "/warzone/schedules div#scores" );
  $('div#flip2').attr('class', 'simple-ticker');
 $('.simple-ticker').attr('id', 'js-ticker-fade');
     $("div#js-ticker-fade").hide();
     $("#flip").on("click", function(){
         $("div#js-ticker-fade").fadeToggle('slow');
     });
- $( "div#flip" ).load( "/FieldofDreams/admin .col-xl-6:nth-child(1) .card.text-center.card-default .card-body h4.card-title" );
- $( "div#mem").load( "/FieldofDreams/admin ul.navbar-nav.flex-row.mr-3 " );
+ $( "div#flip" ).load( "/warzone/admin .col-xl-6:nth-child(1) .card.text-center.card-default .card-body h4.card-title" );
+ $( "div#mem").load( "/warzone/admin ul.navbar-nav.flex-row.mr-3 " );
 
 /*league leaders home page********/
-$( ".passingleaders" ).load( "/FieldofDreams/stats/player/passing  .col-xl-10" );
-$( ".rushingleaders" ).load( "/FieldofDreams/stats/player/rushing .col-xl-10" );
-$( ".receivingleaders" ).load( "/FieldofDreams/stats/player/receiving .col-xl-10" );
-$( ".sacksleaders" ).load( "/FieldofDreams/stats/player/defense?sortby=sack  .col-xl-10" );
-$( ".tacklesleaders" ).load( "/FieldofDreams/stats/player/defense?sortby=tackles .col-xl-10" );
-$( ".interceptionsleaders" ).load( "/FieldofDreams/stats/player/defense?sortby=int .col-xl-10" );
+$( ".passingleaders" ).load( "/warzone/stats/player/passing  .col-xl-10" );
+$( ".rushingleaders" ).load( "/warzone/stats/player/rushing .col-xl-10" );
+$( ".receivingleaders" ).load( "/warzone/stats/player/receiving .col-xl-10" );
+$( ".sacksleaders" ).load( "/warzone/stats/player/defense?sortby=sack  .col-xl-10" );
+$( ".tacklesleaders" ).load( "/warzone/stats/player/defense?sortby=tackles .col-xl-10" );
+$( ".interceptionsleaders" ).load( "/warzone/stats/player/defense?sortby=int .col-xl-10" );
 
 /*standings tabs*******************************************************/
- $( ".afc.standings").load( "/FieldofDreams/standings .card.card-default:nth-child(4)" );
- $( ".nfc.standings").load( "/FieldofDreams/standings .card.card-default:nth-child(5)" );
+ $( ".afc.standings").load( "/warzone/standings .card.card-default:nth-child(4)" );
+ $( ".nfc.standings").load( "/warzone/standings .card.card-default:nth-child(5)" );
 
 /*All Teams Page**********************************************************/
-if(window.location.href=== "http://www.daddyleagues.com/FieldofDreams/teams") {
+if(window.location.href=== "http://www.daddyleagues.com/warzone/teams") {
          $(".col-xl-10").addClass("teams");
      }
 
 /*Standings Page*********************************************************/
-if(window.location.href=== "/FieldofDreams/standings") {
+if(window.location.href=== "/warzone/standings") {
          $(" .table-responsive").addClass("table-responsive-page");
      }
 
