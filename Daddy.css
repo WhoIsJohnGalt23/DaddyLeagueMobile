@@ -426,11 +426,11 @@ div#gameoftheweek-container, .col-lg-12.col-md-12.col-sm-12.col-xs-12.gameofthew
 }
 .col-6.d-flex.align-items-center.justify-content-center.rounded-left {
     background-repeat: no-repeat;
-    background-size: cover;     background-position: -5rem 47%!important;
+    background-size: cover;     background-position: -2rem 47%!important;
 }
 .col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right {
     background-repeat: no-repeat;
-    background-size: cover;     background-position: 5rem 47%!important;
+    background-size: cover;     background-position: 8rem 47%!important;
 
 }
 div#visitor p:nth-child(1), div#host p:nth-child(1) {
