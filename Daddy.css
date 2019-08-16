@@ -1364,8 +1364,8 @@ span.pull-right.cfm-team-ovr {    left:0px; float: left; font-size: x-large;    
   h3.m-0 { width:100%;   font-size: .75rem;    text-align: center;}
  p.m-0.text-muted {    position: relative;    top: -34px;    font-size: .75rem;    font-family: DLSansCondMedium;    text-align: center;}
  .col-12.py-3.rounded-right.cfm-player-info .col-xl-12 {    margin-bottom: -10px;} 
-  .col-12.py-3.rounded-right.cfm-player-info .col-4 {    -ms-flex: 0 0 21.33333333%;    flex: 0 0 50%;    max-width: 50%;}
-  .col-4 {    flex: 0 0 50%;    max-width: 50%;}
+  .col-12.py-3.rounded-right.cfm-player-info .col-4 {    -ms-flex: 0 0 21.33333333%;    flex: 0 0 50%;    max-width: 60%;}
+  .col-4 {    flex: 0 0 50%;    max-width: 60%;}
 .col-12.d-flex.align-items-left.justify-content-center.cfm-player-team-logo h1.cfm-team-name, .col-12.d-flex.align-items-left.justify-content-center.cfm-player-team-logo .col-xl-10 {       animation: fadein-slidedown 2s;  padding: 2px;    margin-bottom: -21px;   top: 195px;}
 .col-12.py-3.rounded-right.cfm-player-info .col-6 {  flex: 0 0 100%;    max-width: 100%;  margin-bottom:189px;   margin-top: 35px;}
   p.mb-0.text-muted {   margin-top: -22px;    float: none;   font-size:.65rem;  padding-left: 0;}
