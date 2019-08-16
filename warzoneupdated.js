@@ -229,9 +229,9 @@ $('.gameoftheweek .GOW').wrapInner('<div class="record"></div>');
 $( ".gow.home.score" ).appendTo( $( ".col-6.bg-inverse.d-flex.align-items-center.justify-content-center.rounded-right" ) );
 
 /*storylines***/
- $( ".jumbotron.hero-nature.carousel-hero" ).load( "/FieldofDreams/blog .blogpost:nth-child(1)" );
- $( ".jumbotron.hero-photography.carousel-hero" ).load( "/FieldofDreams/blog .blogpost:nth-child(2)" );
- $( ".jumbotron.hero-technology.carousel-hero" ).load( "/FieldofDreams/blog .blogpost:nth-child(3)" );
+ $( ".jumbotron.hero-nature.carousel-hero" ).load( "/warzone/blog .blogpost:nth-child(1)" );
+ $( ".jumbotron.hero-photography.carousel-hero" ).load( "/warzone/blog .blogpost:nth-child(2)" );
+ $( ".jumbotron.hero-technology.carousel-hero" ).load( "/warzone/blog .blogpost:nth-child(3)" );
 
 
 
